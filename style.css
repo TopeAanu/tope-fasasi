@@ -29,7 +29,7 @@
 .progress {
   overflow: hidden;
   height: 5px;
-  background: #fff;
+  background: #00b3ff;
   border-radius: 5px;
   margin-bottom: 0.5rem;
 }
@@ -46,6 +46,14 @@ div {
       grid-template-columns: 1fr;
       grid-gap: 0.5rem;
     }
+  }
+}
+
+@media (max-width: 500px) {
+  .progress {
+    width: 50%;
+    padding: 2px;
+    display: inline-block;
   }
 }
 
